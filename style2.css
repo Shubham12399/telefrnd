@@ -1,0 +1,148 @@
+*{
+  
+  background-color: orange;
+  
+  
+  
+  
+
+
+  
+  
+  
+}
+
+.fkj{
+  
+  margin-top: 6.0rem;
+  
+  margin-left: 12.0rem;
+  text-decoration: underline;
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dsa{
+  
+  border: 0.3rem solid orange;
+  height: 25.2rem;
+  width: 56%;
+  margin-top: 21rem;
+  margin-left: 13.0rem;
+  
+  
+  
+  
+}
+
+
+
+
+
+
+.dsa form input{
+  display: block;
+  
+  list-style: none;
+  
+  
+
+}
+
+
+.cv{
+  
+  margin-left: 5.0rem;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 998px){
+  
+  html{
+    
+    font-size: 95%;
+    
+    
+  }
+  
+  
+  
+  
+}
+
+@media(max-height: 769px){
+  
+  
+  html{
+    
+    font-size: 45%;
+    
+    
+  }
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

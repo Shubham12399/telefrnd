@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+.sec{
+  border: 0.2rem solid black;
+  
+  height: 25.0rem;
+  
+  width: 70%;
+  
+  margin-top: 9.0rem;
+  margin-left: 9.0rem;
+  
+  background-color: black;
+  
+  color: white;
+  
+  
+  
+  
+}
+
+
+.ash{
+  
+  margin-top: 2.0rem;
+  margin-left: 20.0rem;
+  background-color: whitesmoke;
+  
+}
+
+
+.ko{
+  margin-top: 4.0rem;
+  
+  margin-left: 2.0rem;
+  
+  
+}
+
+
+.pop{
+  
+  margin-left: 2.0rem;
+  
+  
+  
+  
+  
+  
+}
+
+
+.utu{
+  
+  margin-left: 1.0rem;
+  
+  margin-top: 1.0rem;
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 998px){
+  
+  html{
+    
+    font-size: 95%;
+    
+    
+  }
+  
+  
+  
+  
+}
+
+@media(max-height: 769px){
+  
+  
+  html{
+    
+    font-size: 45%;
+    
+    
+  }
+  
+  
+
+}
+
+
+
+
+
+
+
